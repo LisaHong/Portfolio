@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <style>
+  body {
+	margin: 0;
+	background: #0;
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 550;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #f7cac9;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 2px 0;
+  color: white
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 32px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a: hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+    
+</style>
+    <div class="container">
+      <h1 class="logo">L</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="file:///C:/Users/lisa/Desktop/Portfolio/aboutme.html">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+  <head>
+    <title> Lisa </title>
+    <div class="jumbotron my-class-name">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Hi, <br> I'm Lisa!</h2>
+            <p> INSERT INTRODUCTION HERE :D </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      * {
+        color: white;
+        text-align: left;
+      }
+      
+      h2 {
+        font-size: 50px;
+      }
+      
+      .my-class-name {
+  background: url(http://wallpapercave.com/wp/MpX4X4S.jpg);
+  background-size: cover;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+      
+      </style>
+  </head>
+</html>
