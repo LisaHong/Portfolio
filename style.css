@@ -71,19 +71,3 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-
-* {
-        color: white;
-        text-align: left;
-}
-
-h2 {
-	font-size: 50px;
-}
-      
-.my-class-name {
-  background: url(http://wallpapercave.com/wp/MpX4X4S.jpg);
-  background-size: cover;
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
