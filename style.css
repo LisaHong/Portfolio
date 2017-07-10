@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<header>
-  <style>
-  body {
+body {
 	margin: 0;
 	background: #0;
 	font-family: 'Calibri', sans-serif;
@@ -75,45 +71,3 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-</style>
-    <div class="container">
-      <h1 class="logo">L</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="file:///C:/Users/lisa/Desktop/Portfolio/aboutme.html">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
-      </nav>
-    </div>
-</header>
-  <head>
-    <title> Lisa </title>
-    <div class="jumbotron my-class-name">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2>Hi, <br> I'm Lisa!</h2>
-            <p> INSERT INTRODUCTION HERE :D </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <style>
-      * {
-        color: white;
-        text-align: left;
-      }
-      h2 {
-        font-size: 50px;
-      }
-      .my-class-name {
-  background: url(http://wallpapercave.com/wp/MpX4X4S.jpg);
-  background-size: cover;
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
-      </style>
-  </head>
-</html>
